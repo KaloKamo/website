@@ -140,22 +140,17 @@ p {
 }
 
 .home-page:hover, .friends-page:hover, .downloads-page:hover, .contacts-page:hover {
-    transform: scale(1.2);
     background-color: rgba(161, 19, 227, 40%);
 }
 
 .home-page, .friends-page, .downloads-page, .contacts-page {
-    margin: 5px 10px;
+    margin: 5px 15px;
+    border-style: solid;
+    border-width: 4px;
     padding: 5px;
-    font-size: 20px;
-    border-radius: 8px;
+    font-size: 25px;
+    border-radius: 10px;
     color: white;
-    background-color: rgba(161, 19, 227, 0%);
-    display: inline-block;
-    position: relative;
-    list-style-type: none;
-    text-decoration: none;
-    transition: transform 0.2s ease-out;
 }
 
 .hi-noah {
@@ -218,3 +213,5 @@ img {
 a {
     text-decoration: none;
 }
+
+
